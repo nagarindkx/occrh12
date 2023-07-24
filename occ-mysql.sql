@@ -2,9 +2,9 @@ select
    date_format(od.vstdate, '%d/%m/%Y') as date_dx
  , v.age_y
  , s.name as sex
- , t3.name as tmbpart
- , t2.name as amppart
- , t1.name as chwpart
+ , t3.name as patient_subdistrict
+ , t2.name as patient_district
+ , t1.name as patient_province
  , od.diagtype
  , od.icd10
  , st.name as spclty
